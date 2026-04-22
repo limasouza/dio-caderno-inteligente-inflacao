@@ -1,42 +1,158 @@
-dio-caderno-inteligente-inflacao
-📌 Contexto e Objetivos
-Este repositório contém o projeto final do curso na Digital Innovation One, focado no uso do Google NotebookLM como ferramenta de aprendizagem ativa. O tema escolhido foi Inflação, um fenômeno econômico que afeta diretamente o poder de compra e o planejamento financeiro de todos os cidadãos.
-•	Objetivo de Estudo: Compreender as causas reais da inflação (demanda, custos e emissão monetária), diferenciar os índices IPCA e INPC, e analisar como a variação de preços impacta a economia doméstica e os investimentos.
-📚 Curadoria de Fontes
-Para alimentar o NotebookLM e garantir uma análise multimídia e oficial, utilizei as seguintes fontes:
-Vídeos (Audiovisual):
-1.	IBGE Explica: O que é inflação • IPCA e INPC - Focado na metodologia brasileira.
-2.	Plano Piloto: O que é Inflação? - Uma visão didática sobre a desvalorização do dinheiro.
-3.	Lisonário: Como a inflação afeta sua vida - Focado em sucesso financeiro e proteção.
-4.	Gabriela Mosmann: Economia Descomplicada - Análise técnica sobre espiral inflacionária e política monetária.
-Documentação Oficial (Texto):
-•	Banco Central do Brasil: O que é inflação
-•	IBGE: Explicando a inflação no Brasil
-•	Banco Central Europeu: Conceitos de inflação na Zona do Euro
+# 📘 dio-caderno-inteligente-inflacao
 
-🧠 Engenharia de Prompts e "Cicatrizes"
-Aqui registro o processo de refinamento das consultas para extrair o melhor da IA:
-•	Prompt Inicial: "Quais as reais causas da inflação?"
-o	Resultado: Gerou uma visão geral útil para o Mapa Mental, mas faltavam detalhes sobre o Brasil.
-•	Prompt de Refinamento (Contextualizado): "Com base nos vídeos do IBGE e nos dados do Banco Central fornecidos, explique por que o IPCA é o índice oficial e como ele afeta a taxa Selic."
-o	Resultado: Consegui informações precisas para estruturar os slides.
-•	Cicatrizes (Troubleshooting): Notei que, ao perguntar sobre "preços altos", a IA às vezes confundia preço caro com inflação (que é o aumento contínuo). Tive que instruir a ferramenta a focar na variação percentual para obter o glossário correto.
-📖 Miniguia de Estudo (Entrega Final)
-📝 Resumo Estruturado
-1.	O que é: Aumento generalizado e contínuo dos preços.
-2.	Causas Principais:
-o	Demanda: Mais pessoas querendo comprar do que produtos disponíveis.
-o	Custos: Aumento de matéria-prima (energia, combustíveis).
-o	Emissão Monetária: Excesso de dinheiro em circulação sem aumento de produção.
-3.	Impacto: Perda do poder de compra — o dinheiro "encolhe" com o tempo.
-🔤 Glossário de Conceitos-Chave
-•	IPCA: Índice Nacional de Preços ao Consumidor Amplo (foco em famílias de 1 a 40 salários mínimos).
-•	INPC: Focado em famílias de 1 a 5 salários mínimos (mais sensíveis a alimentos e medicamentos).
-•	Deflação: O oposto da inflação; queda generalizada de preços (pode indicar recessão).
-•	Poder de Compra: A capacidade de adquirir bens com uma determinada unidade monetária.
-🚀 Prompts Reutilizáveis
-•	"Resuma as diferenças entre IPCA e INPC com base na fonte do IBGE."
-•	"Explique o conceito de 'imposto inflacionário' citado por Milton Friedman nos textos."
-•	"Crie um roteiro de 3 tópicos para explicar inflação para um leigo."
-# dio-caderno-inteligente-inflacao
-Projeto do curso CI&amp;T - Do Prompt ao Agente - Da Digital Inovation One
+> Projeto desenvolvido no curso **CI&T - Do Prompt ao Agente** da **Digital Innovation One (DIO)**
+> Focado no uso do **Google NotebookLM** como ferramenta de aprendizagem ativa.
+
+---
+
+## 📑 Índice
+
+* [📌 Contexto e Objetivos](#-contexto-e-objetivos)
+* [📚 Curadoria de Fontes](#-curadoria-de-fontes)
+* [🧠 Engenharia de Prompts](#-engenharia-de-prompts-e-cicatrizes)
+* [📖 Miniguia de Estudo](#-miniguia-de-estudo-entrega-final)
+* [🚀 Prompts Reutilizáveis](#-prompts-reutilizáveis)
+
+---
+
+## 📌 Contexto e Objetivos
+
+Este repositório contém o projeto final do curso, com foco na utilização do **NotebookLM** como apoio ao aprendizado estruturado.
+
+O tema escolhido foi **Inflação**, um dos conceitos mais importantes da economia, pois impacta diretamente o poder de compra e o planejamento financeiro.
+
+### 🎯 Objetivos de Estudo
+
+* Entender as principais causas da inflação:
+
+  * Inflação de demanda
+  * Inflação de custos
+  * Emissão monetária
+
+* Diferenciar os principais índices:
+
+  * **IPCA**
+  * **INPC**
+
+* Analisar impactos práticos:
+
+  * Consumo das famílias
+  * Investimentos
+  * Economia doméstica
+
+---
+
+## 📚 Curadoria de Fontes
+
+Para garantir uma base sólida e confiável, foram utilizadas fontes oficiais e conteúdos educativos.
+
+### 🎥 Vídeos
+
+* **IBGE Explica: O que é inflação • IPCA e INPC**
+* **Plano Piloto: O que é Inflação?**
+* **Lisonário: Como a inflação afeta sua vida**
+* **Gabriela Mosmann: Economia Descomplicada**
+
+### 📄 Fontes Oficiais
+
+* Banco Central do Brasil — O que é inflação
+* IBGE — Explicando a inflação no Brasil
+* Banco Central Europeu — Conceitos de inflação
+
+---
+
+## 🧠 Engenharia de Prompts e "Cicatrizes"
+
+Registro do processo de melhoria das interações com IA:
+
+### 🔹 Prompt Inicial
+
+> "Quais as reais causas da inflação?"
+
+📌 **Resultado:**
+Boa visão geral, mas sem profundidade no contexto brasileiro.
+
+---
+
+### 🔹 Prompt Refinado
+
+> "Com base nos vídeos do IBGE e nos dados do Banco Central fornecidos, explique por que o IPCA é o índice oficial e como ele afeta a taxa Selic."
+
+📌 **Resultado:**
+Resposta mais precisa e aplicável para construção do material.
+
+---
+
+### ⚠️ Cicatrizes (Aprendizados)
+
+* Problema identificado:
+
+  * Confusão entre **preço alto** e **inflação**
+
+* Ajuste feito:
+
+  * Foco em **variação percentual dos preços**
+
+* Resultado:
+
+  * Maior precisão conceitual no estudo
+
+---
+
+## 📖 Miniguia de Estudo (Entrega Final)
+
+### 📝 Resumo Estruturado
+
+**✔ O que é inflação:**
+Aumento generalizado e contínuo dos preços.
+
+**✔ Principais causas:**
+
+* **Demanda:** excesso de consumo em relação à oferta
+* **Custos:** aumento de insumos (energia, combustíveis, etc.)
+* **Emissão monetária:** mais dinheiro em circulação sem aumento de produção
+
+**✔ Impacto:**
+Redução do poder de compra ao longo do tempo.
+
+---
+
+### 🔤 Glossário
+
+* **IPCA:**
+  Índice oficial do Brasil (famílias de 1 a 40 salários mínimos)
+
+* **INPC:**
+  Focado em famílias de menor renda (1 a 5 salários mínimos)
+
+* **Deflação:**
+  Queda generalizada de preços
+
+* **Poder de Compra:**
+  Capacidade de adquirir bens e serviços com o dinheiro disponível
+
+---
+
+## 🚀 Prompts Reutilizáveis
+
+* "Resuma as diferenças entre IPCA e INPC com base na fonte do IBGE."
+* "Explique o conceito de imposto inflacionário segundo Milton Friedman."
+* "Crie um roteiro simples para explicar inflação para iniciantes."
+
+---
+
+## 💡 Possíveis Melhorias Futuras
+
+* Adicionar gráficos de inflação histórica
+* Criar dashboard simples com dados econômicos
+* Integrar com Python para análise de dados (Pandas)
+* Expandir o uso de IA para geração de insights
+
+---
+
+## 📎 Sobre o Projeto
+
+Este projeto demonstra como utilizar inteligência artificial como ferramenta de apoio ao aprendizado, indo além da simples consulta e evoluindo para um processo estruturado de estudo.
+
+---
+
